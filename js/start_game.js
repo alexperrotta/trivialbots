@@ -23,3 +23,23 @@ class ChooseCategory {
 
 }
 
+
+class StartButton {
+	constructor(startButton) {
+		this.container = $(container);
+
+		this.render();
+	}
+
+	render() {
+		this.container.html(`
+			<button type="button" class="btn btn-success">Success</button>
+			`);
+	}
+}
+
+
+// Disabled button: <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+
+
+
