@@ -1,3 +1,13 @@
 body {
     background-color: lightgray;
 }
+
+.questionSpace {
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly
+}
