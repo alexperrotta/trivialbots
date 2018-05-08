@@ -2,7 +2,7 @@
 
 Contributors: Hyun Joo Nam, Alexandra Perrotta and Kathryn Parker
 
-TrivialBOTS is a two player trivia game. When you have answered a question successfully, you will be granted access to generate a random robot. The first player able to generate 3 robots, wins.
+TrivialBOTS is single player trivia game. When you have answered a question successfully, you will granted a random robot. How many can you collect?
 
 ## What's new in version 0.5?
 
