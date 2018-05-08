@@ -10,6 +10,7 @@
 
     <!-- MAIN CSS STYLES -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- JAVASCRIPT -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -20,7 +21,7 @@
     <script src="js/gameOver.js"></script>
     <script src="js/main.js"></script>
     
-    <title>TrivialBOTS</title>
+    <title>TrivialBOTS About</title>
   </head>
 
   <body>
@@ -35,11 +36,11 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand" href="#">TrivialBOTS</a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" href="#">About</a>
             </li>
           </ul>
           <!-- <form class="form-inline my-2 my-lg-0">
@@ -61,36 +62,57 @@
       <!-- *********************** -->
 
       <!-- ENTER PLAYERS' NAMES CONTAINER-->
-      <div class="container text-center" style="width: 400px;">
+      <div class="container text-center" style="width: 960px;">
 
         <!-- ENTER USER FORM -->
-        <form>
-
-          <!-- USERNAME -->
-          <div class="form-group">
-              <input id="userName" type="text" class="form-control form-control-lg" placeholder="Enter Username">
+        
+        <div class="aboutPeeps">
+          <div class="card">
+            <img class="card-img-top" src="img/hear.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hyun Joo Nam</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/hyunjoonam" target='blank' class="btn btn-primary">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
+                  </span> GitHub
+              </a>
+            </div>
           </div>
-
-          <!-- CATEGORY DROPDOWN -->
-          <div class="form-group text-left">
-            <select class="form-control form-control-lg" id="categorySelect">
-              <option>-- Select a Category --</option>
-              <option>Random Category</option>
-              <option>Category 2</option>
-              <option>Category 3</option>
-              <option>Category 4</option>
-              <option>Category 5</option>
-            </select>
+          
+            <div class="card">
+            <img class="card-img-top" src="img/see.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Alexandra Perrotta</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://github.com/alexperrotta" target='blank' class="btn btn-primary">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
+                  </span> GitHub
+              </a>
+            </div>
           </div>
-
-          <!-- BEGIN GAME BUTTON -->
-          <div>
-              <a id="bringItOn" href="question.html" class="btn btn-primary btn-lg btn-block mt-3" role="button">Bring It On!</a>
+          
+          <div class="card">
+            <img class="card-img-top" src="img/speak.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Kathryn Parker</h5>
+              <p class="card-text">There’s not enough coffee</br>on this planet!!!</br><b>Seriously!</b></p>
+              <a href="https://github.com/WarpedWorks" target='blank' class="btn btn-primary push-bottom">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
+                  </span> GitHub
+              </a>
+            </div>
           </div>
-
-        </form>
+          
+        </div>
+        <div style="margin-top: 50px;"><h3>Thanks for playing!</h3></div>
       </div>
-      <!-- ****** END ENTER USER FORM ******* -->
+      <!-- ****** END ABOUT PAGE ******* -->
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
