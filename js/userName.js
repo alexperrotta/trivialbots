@@ -7,15 +7,6 @@ $(function(){
       let clickedAndStoredUsername;
       clickedAndStoredUsername = new Username();
     });
-	
-
-	$(function(){
-	    let storedUsernameJSON = localStorage.getItem('Username');  
-	    let username = JSON.parse(storedUsernameJSON);
-
-	    $('.display-4').html(username);
-  	});
-
 
 	class Username {
 	    constructor(form) {
