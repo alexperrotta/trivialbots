@@ -2,6 +2,10 @@ body {
     background-color: lightgray;
 }
 
+.display-4 {
+	text-align: center;
+}
+
 .questionSpace {
     margin-bottom: 60px;
     margin-top: 30px;
