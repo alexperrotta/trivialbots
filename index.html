@@ -10,85 +10,64 @@
 
     <!-- MAIN CSS STYLES -->
     <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- JAVASCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/userName.js"></script> 
-    <title>TrivialBOTS</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  
+    <script src="js/userName.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/generateImages.js"></script>
+    <title>TrivialBOTS-Home</title>
   </head>
 
   <body>
-      <!-- ******** -->
       <!-- MAIN NAV -->
-      <!-- ******** -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">TrivialBOTS</a>
+          <a class="navbar-brand" href="index.html">TrivialBOTS</a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="button">Log In</button>
-          </form> -->
         </div>
       </nav>
+      <!-- ******** -->
 
-      <!-- ***** -->
-      <!-- TITLE -->
-      <!-- ***** -->
-
-      <div class="container px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">TrivialBOTS</h1>
+      <!-- *LOGO* -->
+      <div class="container text-center">
+          <div class="logoIndex"><img src="img/trivitalBOTS_logo.png"/></div>
+          <h5>Enter your name to play some trivia!</h5>
       </div>
+      <!-- ***** -->
 
-      <!-- *********************** -->
-      <!-- PLAYER NAMES/BEGIN FORM -->
-      <!-- *********************** -->
-
-      <!-- ENTER PLAYERS' NAMES CONTAINER-->
-      <div class="container text-center" style="width: 400px;">
-
-        <!-- ENTER USER FORM -->
+      <!-- USER NAME -->
+      <div class="container text-center" style="width: 800px;">
         <form>
-
-          <!-- USERNAME -->
           <div class="form-group">
               <input id="userName" type="text" class="form-control form-control-lg" placeholder="Enter Username">
           </div>
 
-          <!-- CATEGORY DROPDOWN -->
-           <!-- <div class="form-group text-left">
-            <select class="form-control form-control-lg" id="categorySelect">
-              <option>Select a Category</option>
-              <option>Random Category</option>
-              <option>Category 2</option>
-              <option>Category 3</option>
-              <option>Category 4</option>
-              <option>Category 5</option>
-            </select>
-          </div>  -->
-
-          <!-- BEGIN GAME BUTTON -->
+          <!-- BEGIN BUTTON -->
           <div>
-              <a id="bringItOn" href="question.html" class="btn btn-primary btn-lg btn-block mt-3" role="button">Bring It On!</a>
+              <a id="bringItOn" href="question.html" class="btn btn-info btn-lg" role="button">Bring It On!</a>
           </div>
-
         </form>
       </div>
-      <!-- ****** END ENTER USER FORM ******* -->
+      <!-- ********* -->
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>

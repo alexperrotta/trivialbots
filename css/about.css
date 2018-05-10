@@ -1,0 +1,61 @@
+body {
+    background-color: #000406;
+    background-image: url('../img/trivialBOTS_questionarms.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logoAbout {
+    width: 200px;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.bg-dark {
+    background-color: #002d3a!important;
+}
+
+.aboutPeeps {
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 970px;
+  }
+  
+  .card {
+    width: 18rem;
+    border: 1px solid #000;
+    box-shadow: 4px 4px 7px #002d3a;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: solid 1px #000;
+    margin-top: -50px;
+  }
+
+  .card-body {
+      color: #fff;
+      background-color: #002d3a;
+  }
+
+  h3 {
+      color: #007474;
+  }
+
+  .push-bottom {
+      position: absolute;
+      bottom: 20px;
+      left: 35%;
+  } 
+
+
+
+
+
+

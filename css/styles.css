@@ -1,14 +1,46 @@
 body {
-    background-color: lightgray;
+    background-color: #000406;
+    background-image: url('../img/trivialBOTS_questionarms.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logoIndex {
+    padding-top: 90px;
+    margin-bottom: -30px;
+}
+
+.form-control {
+    width: 420px;
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #007474;
+    text-align: center;
+    display: inline;
 }
 
 .display-4 {
-	text-align: center;
+    color: #67bebe;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .questionSpace {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     margin-top: 30px;
+    color: #fff;
+    height: 70px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.robotBox {
+    width: 230px;
+    height: 230px;
+    display:block;
+    margin: 8px;
+    border: 2px solid #FF9A35;
+    text-align: center;
 }
 
 .row {
@@ -16,37 +48,41 @@ body {
     justify-content: space-evenly
 }
 
+.container h1 {
+    color: #67bebe;
+}
 
-/* -- ABOUT PAGE -- */
+h3 {
+    color: #fff;
+}
 
-.aboutPeeps {
-    margin: 20px auto;
-    padding: 16px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    width: 970px;
-  }
-  
-  .card {
-    width: 18rem;
-    border: 1px solid #000;
-    box-shadow: 4px 4px 7px #ccc;
-  }
-  
-  .card-img-top {
-    width: 100%;
-    overflow: hidden;
-    border-bottom: solid 1px #000;
-  }
+h5 {
+    color: #67bebe;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
 
-  .card-body {
-      color: #fff;
-      background-color: #444;
-  }
+.bg-dark {
+    background-color: #002d3a!important;
+}
 
-  .push-bottom {
-      position: absolute;
-      bottom: 20px;
-      left: 78px;
-  } 
+.btn {
+    width: 420px;
+    font-size: 20px;
+    border-radius: 0px;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #007474;
+    border-color: #007474;
+}
+
+
+
+
+
+

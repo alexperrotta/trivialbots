@@ -4,7 +4,7 @@ $(function(){
 	    let storedUsernameJSON = localStorage.getItem('Username');  
 	    let username = JSON.parse(storedUsernameJSON);
 
-	    $('.display-4').html(username);
+	    $('.display-4').html("Let's try! " +  username);
   	});
 	// Get question from trivia API
 	// Then render the questions
@@ -39,17 +39,18 @@ $(function(){
  			<h3 class="questionSpace"> ${this.results[0].question} </h3>
  			</div>
  			<div class="container">
- 			<button type="button" class="btn btn-outline-dark btn-lg btn-block" id="a">${this.results[0].correct_answer}</button>
- 			<button type="button" class="btn btn-outline-dark btn-lg btn-block wrong">${this.results[0].incorrect_answers[0]}</button>
-			<button type="button" class="btn btn-outline-dark btn-lg btn-block wrong">${this.results[0].incorrect_answers[1]}</button>
- 			<button type="button" class="btn btn-outline-dark btn-lg btn-block wrong">${this.results[0].incorrect_answers[2]}</button>
+ 			<button type="button" class="btn btn-warning btn-lg" id="a">${this.results[0].correct_answer}</button>
+ 			<button type="button" class="btn btn-warning btn-lg wrong">${this.results[0].incorrect_answers[0]}</button>
+			<button type="button" class="btn btn-warning btn-lg wrong">${this.results[0].incorrect_answers[1]}</button>
+ 			<button type="button" class="btn btn-warning btn-lg wrong">${this.results[0].incorrect_answers[2]}</button>
  			</div> 
  			`);
  	}
 
  	correctAnswer() {
  		$("#a").click(function(){
- 			generateRobot();
+			 generateRobot();
+			//  generateNasa();
  		});	
  	}
 
