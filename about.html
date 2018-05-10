@@ -9,70 +9,54 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- MAIN CSS STYLES -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- JAVASCRIPT -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/playersName.js"></script>
-    <script src="js/nextQueston.js"></script>
-    <script src="js/generateRobot.js"></script>
-    <script src="js/checkScore.js"></script>
-    <script src="js/gameOver.js"></script>
-    <script src="js/main.js"></script>
-    
-    <title>TrivialBOTS About</title>
+    <script src="js/userName.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/generateImages.js"></script>
+    <title>TrivialBOTS</title>
   </head>
 
   <body>
-      <!-- ******** -->
-      <!-- MAIN NAV -->
-      <!-- ******** -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">TrivialBOTS</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-          </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="button">Log In</button>
-          </form> -->
-        </div>
-      </nav>
-
-      <!-- ***** -->
-      <!-- TITLE -->
-      <!-- ***** -->
-
-      <div class="container px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">TrivialBOTS</h1>
+    <!-- MAIN NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html">TrivialBOTS</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <!-- ******** -->
 
-      <!-- *********************** -->
-      <!-- PLAYER NAMES/BEGIN FORM -->
-      <!-- *********************** -->
+    <!-- *LOGO* -->
+    <div class="container">
+        <div class="logoAbout"><img src="img/trivitalBOTS_logo.png"/></div>
+    </div>
+    <!-- ***** -->
 
-      <!-- ENTER PLAYERS' NAMES CONTAINER-->
       <div class="container text-center" style="width: 960px;">
 
-        <!-- ENTER USER FORM -->
-        
+        <!-- ABOUT US -->
         <div class="aboutPeeps">
           <div class="card">
             <img class="card-img-top" src="img/hear.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Hyun Joo Nam</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://github.com/hyunjoonam" target='blank' class="btn btn-primary">
+              <p class="card-text">“My code DOESN’T work,</br>I have no idea why.</br>My code WORKS,</br>I have no idea why.”</br><i>- Anonymous</i></p>
+              <a href="https://github.com/hyunjoonam" target='blank' class="btn btn-warning ">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x"></i>
@@ -85,8 +69,9 @@
             <img class="card-img-top" src="img/see.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Alexandra Perrotta</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="https://github.com/alexperrotta" target='blank' class="btn btn-primary">
+              <p class="card-text"></br>“Talk is cheap.</br>Show me the code.” 
+                 <i> ― Linus Torvalds.></i></p>
+              <a href="https://github.com/alexperrotta" target='blank' class="btn btn-warning push-bottom">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x"></i>
@@ -99,8 +84,8 @@
             <img class="card-img-top" src="img/speak.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Kathryn Parker</h5>
-              <p class="card-text">There’s not enough coffee</br>on this planet!!!</br><b>Seriously!</b></p>
-              <a href="https://github.com/WarpedWorks" target='blank' class="btn btn-primary push-bottom">
+              <p class="card-text"></br><b>Seriously!</b></br>There’s not enough coffee</br>on this planet!!!</p>
+              <a href="https://github.com/WarpedWorks" target='blank' class="btn btn-warning push-bottom">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x"></i>
@@ -110,9 +95,9 @@
           </div>
           
         </div>
-        <div style="margin-top: 50px;"><h3>Thanks for playing!</h3></div>
+          <div style="margin-top: 50px;"><h3>Thanks for playing!</h3>
+        </div>
       </div>
-      <!-- ****** END ABOUT PAGE ******* -->
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->

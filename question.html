@@ -11,102 +11,75 @@
     <!-- MAIN CSS STYLES -->
     <link rel="stylesheet" href="css/styles.css">
 
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <!-- JAVASCRIPT -->
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   
     <script src="js/userName.js"></script>
     <script src="js/quiz.js"></script>
     <script src="js/generateImages.js"></script>
-    <title>TrivialBOTS</title>
+    <title>TrivialBOTS-Question</title>
   </head>
 
   <body>
-      <!-- ******** -->
-      <!-- MAIN NAV -->
-      <!-- ******** -->
-
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">TrivialBOTS</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="button">Log In</button>
-          </form> -->
-        </div>
-      </nav>
-
-      <!-- ***** -->
-      <!-- TITLE -->
-      <!-- ***** -->
-
-      <div class="usernameContainer">
-         <h1 class="display-4">Username</h1> 
+    <!-- MAIN NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html">TrivialBOTS</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <!-- ******** -->
 
-      <!-- *********************** -->
-      <!-- QUESTION AREA -->
-      <!-- *********************** -->
+    <!-- TITLE -->
+    <div class="usernameContainer">
+        <h1 class="display-4">Username</h1> 
+    </div>
+    <!-- ***** -->
 
-      <!-- QUESTION/ANSWER CONTAINER-->
-      <div class="questionAnswers container text-center" style="width: 800px;">
+    <!-- QUESTION/ANSWER CONTAINER-->
+    <div class="questionAnswers container text-center" style="width: 800px;">
 
-          <!-- QUESTION 
-          <div>
-            <h3 class="questionSpace">Avast Ye Matties! I RRRrrRRRRrrr</br>A Question!!!</h3>
-          </div>
+      <!-- ************************** -->
+      <!-- QUESTION/ANSWERS LIVE HERE -->
+      <!-- ************************** -->
 
-           MULTIPLE CHOICE ANSWER 
-           <div class="container">
+    </div>
 
-            <div>
-                <button type="button" class="btn btn-outline-dark btn-lg btn-block">Answer A</button>
-                <button type="button" class="btn btn-outline-dark btn-lg btn-block">Answer B</button>
-                <button type="button" class="btn btn-outline-dark btn-lg btn-block">Answer C</button>
-                <button type="button" class="btn btn-outline-dark btn-lg btn-block">Answer D</button>
-            </div> -->
+    <!-- NEXT QUESTION BUTTON -->
+    <div class="container container text-center" style="width: 800px;">
+        <button id="nextQuestion" class="btn btn-info btn-lg" role="button">Get A Question</button>
+    </div>
+    <!-- ********************************** -->
 
-        </div>
-          <!-- NEXT QUESTION BUTTON -->
-          <div class="container">
-              <button id="nextQuestion" class="btn btn-primary disable btn-lg btn-block mt-3" role="button">Get Question</button>
-          </div>
-      
-      <!-- ****** END QUESTION/ANSWER ******* -->
+    <!-- RORBOTS -->
+    <div class="container px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+      <div class="row" id="robotRow">
 
-        <!-- ******* -->
-        <!-- RORBOTS -->
-        <!-- ******* -->
+      <!-- **************** -->
+      <!-- ROBOTS LIVE HERE -->
+      <!-- **************** -->
 
-      <div class="container px-3 py-3 pt-md-5 pb-md-4 mx-auto">
-            <div class="row" id="robotRow">
-                <!-- <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail" style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail" style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div>
-                <div><img src="https://robohash.org/63.143.42.243.png" class="mg-fluid img-thumbnail"style="width: 100px;"></div> -->
-            </div>
       </div>
     </div>
+    <!-- ******* -->
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   
-  </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
 </html>
