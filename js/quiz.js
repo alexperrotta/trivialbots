@@ -50,7 +50,6 @@ $(function(){
  	correctAnswer() {
  		$("#a").click(function(){
 			 generateRobot();
-			//  generateNasa();
  		});	
  	}
 
