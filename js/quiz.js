@@ -4,7 +4,7 @@ $(function(){
 	    let storedUsernameJSON = localStorage.getItem('Username');  
 	    let username = JSON.parse(storedUsernameJSON);
 
-	    $('.display-4').html("Let's try! " +  username);
+	    $('.display-4').html("Let's play " +  username + "!");
   	});
 	// Get question from trivia API
 	// Then render the questions
