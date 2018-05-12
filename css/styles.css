@@ -84,9 +84,20 @@ h5 {
 
 #footer {
     text-align: center;
-    color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    color: #cccccc;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #82c9c9;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: #67bebe;
 }
 
 
