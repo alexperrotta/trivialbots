@@ -43,6 +43,16 @@ body {
     text-align: center;
 }
 
+.wrongX img {
+    width: 226px;
+    height: 226px;
+    display:block;
+    margin: 8px;
+    border: 2px solid red;
+    text-align: center;
+    order: -2
+}
+
 .row {
     display: flex;
     justify-content: space-evenly

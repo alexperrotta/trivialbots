@@ -7,7 +7,8 @@ function generateRobot(){
 }
 
 function generateX(){
-	$('#robotRow').append('<div class="robotBox"><img src="https://vignette.wikia.nocookie.net/house-of-cards/images/a/a5/X.png/revision/latest?cb=20161128021903" width="180"/></div>');
-	$('.wrong').css({'background-color':'red', 'color':'white'});
+	$('#robotRow').append('<div class="wrongX"><img style="background-size: cover;" src="img/x.png"/></div>');
     $('#a').css({'background-color':'green', 'color':'white'});
 }	
+
+
