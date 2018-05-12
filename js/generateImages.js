@@ -8,7 +8,8 @@ function generateRobot(){
 
 function generateX(){
 	$('#robotRow').append('<div class="wrongX"><img style="background-size: cover;" src="img/x.png"/></div>');
-    $('#a').css({'background-color':'green', 'color':'white'});
-}	
+	$('.wrong').css({'background-color':'red', 'color':'white'});
+	$('#a').css({'background-color':'green', 'color':'white'});
+}
 
 
